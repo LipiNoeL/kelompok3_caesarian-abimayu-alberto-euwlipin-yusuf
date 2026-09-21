@@ -11,17 +11,25 @@ public class Main {
         Buku buku3 = new BukuDigital("Sejarah Singkat Waktu", "BK003", genre2, 4.5);
         Buku buku4 = new BukuDigital("Sapiens", "BK004", genre3, 12.0);
 
+        System.out.println("=== DETAIL BUKU (IMPLEMENTASI ABSTRAKSI) ===");
+        buku1.tampilkanInfoBuku();
+        buku2.tampilkanInfoBuku();
+        buku3.tampilkanInfoBuku();
+        buku4.tampilkanInfoBuku();
+
         Member mem1 = new Member("Rian", "MB001");
         Member mem2 = new Member("Abi", "MB002");
         Member mem3 = new Member("Ipin", "MB003");
 
-        mem1.tambahPinjaman(buku1);
-        mem1.tambahPinjaman(buku3);
-        mem2.tambahPinjaman(buku1);
-        mem3.tambahPinjaman(buku2);
-        mem3.tambahPinjaman(buku4);
+        System.out.println("\n=== FITUR PEMINJAMAN (IMPLEMENTASI INTERFACE) ===");
+        // Menggunakan metode dari Interface DapatDipinjam
+        buku1.pinjamBuku(mem1);
+        buku3.pinjamBuku(mem1);
+        buku1.pinjamBuku(mem2);
+        buku2.pinjamBuku(mem3);
+        buku4.pinjamBuku(mem3);
 
-        System.out.println("=== DAFTAR BUKU PER GENRE ===");
+        System.out.println("\n=== DAFTAR BUKU PER GENRE ===");
         genre1.tampilkanDaftarBuku();
         genre2.tampilkanDaftarBuku();
         genre3.tampilkanDaftarBuku();
@@ -36,5 +44,10 @@ public class Main {
         buku2.tampilkanPeminjam();
         buku3.tampilkanPeminjam();
         buku4.tampilkanPeminjam();
+
+        System.out.println("\n=== DEMO PENGEMBALIAN BUKU ===");
+        buku1.kembalikanBuku(mem1);
+        System.out.println("Status peminjam " + buku1.getJudulBuku() + " setelah Rian mengembalikan:");
+        buku1.tampilkanPeminjam();
     }
 }

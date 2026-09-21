@@ -35,7 +35,7 @@ public class Member {
     public void tambahPinjaman(Buku buku) {
         if (!daftarPinjaman.contains(buku)) {
             daftarPinjaman.add(buku);
-            buku.tambahPeminjam(this);
+            buku.pinjamBuku(this);
         }
     }
 
