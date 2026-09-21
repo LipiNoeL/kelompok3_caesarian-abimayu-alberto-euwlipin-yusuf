@@ -1,5 +1,3 @@
-# Group Introduction
-
 ## Group Members
 
 | No. | Name | Student ID | Role |
@@ -12,9 +10,9 @@
 
 ## Assignment Information
 
-**Course:** [Pemrograman Berbasis Objek]  
-**Class:** [A1 & A2]    
-**Assignment:** [Perpustakaan]
+**Course:** Pemrograman Berbasis Objek
+**Class:** A1 & A2    
+**Assignment:** Perpustakaan
 
 ## About Our Group
 
