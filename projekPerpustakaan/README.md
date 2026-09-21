@@ -1,18 +1,27 @@
-## Getting Started
+## Group Members
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+| No. | Name | Student ID | Role |
+|---|---|---|---|
+| 1 | Caesarian Lanang Parizano Zaim | 121 | Kepala Suku |
+| 2 | Ahmad Maulana Abimanyu | 017 | Member Suku |
+| 3 | Alberto Relva Ezekiel Garnedy | 090 | Member Suku |
+| 4 | Euwlipin Natanoel Saudale | 016 | Member Suku |
+| 5 | M. Yusuf Baihaqi Bawono | 096 | Member Suku |
 
-## Folder Structure
+## Assignment Information
 
-The workspace contains two folders by default, where:
+**Course:** Pemrograman Berbasis Objek  
+**Class:** TPL A1 & A2  
+**Assignment:** Projek Perpustakaan Java
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## About Our Group
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+We are a group of students working together to complete this assignment. Each member contributes through discussion, research, development, and documentation to achieve the objectives of the project.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Our Goal
 
-## Dependency Management
+Our goal is to complete the assignment effectively while improving our teamwork, communication, and understanding of the topics covered in this course.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+Thank you!
