@@ -10,9 +10,9 @@
 
 ## Assignment Information
 
-**Course:** Pemrograman Berbasis Objek
-**Class:** A1 & A2    
-**Assignment:** Perpustakaan
+**Course:** Pemrograman Berbasis Objek  
+**Class:** TPL A1 & A2  
+**Assignment:** Projek Perpustakaan Java
 
 ## About Our Group
 
